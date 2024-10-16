@@ -3,3 +3,90 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:cornflowerblue;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  height: 100vh;
+  flex-direction: row
+}
+
+.revenda {
+  color: black;
+  background-color: chartreuse;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow:18px 18px 5px -3px rgba(26, 32, 26, 0.58)  
+}
+
+div .grupo-input {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-top: 10px;
+
+}
+ body div h1 {
+  margin-left: 30px;
+ }
+
+ #modelo-do-veiculo {
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+ #carro-ano{
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+ #carro-imagem{
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+
+ #addCarro {
+  padding:10px 20px ;
+  background-color: darkblue;
+  color: chartreuse;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+.carro-symbols-outlined{
+  display: flex;
+  border-radius: 5px;
+  background-color:cornflowerblue 
+}
+
+.carros{
+  display: flex;
+  flex-direction:column;
+  margin-top: 20PX;
+  margin-left: 100PX;
+  background-color: beige;
+  width: 50%;
+  height: 10%;
+  border-radius: 20px;
+}
+
+
+.tabela-imagem {
+  display: flex;
+  color:black;
+  margin-left:250px;
+  margin-top: 30px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+

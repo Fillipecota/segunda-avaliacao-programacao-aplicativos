@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Carro-perfeito-pra-você</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <div class="revenda">
+      <h1>cadastro veiculo</h1>
+      
+      <div class="grupo-input">
+        <input type="text" id="modelo-do-veiculo" placeholder="modelo " onkeypress="addPeloEnter(event)">
+        <input type="text" id="carro-ano" placeholder="ano do carro " onkeypress="addPeloEnter(event)">
+        <input type="text" id="carro-imagem" placeholder="imagem " onkeypress="addPeloEnter(event)">
+        <button id="addCarro" onclick="adicionarCarro()">adicionar Carros</button>
+          
+          </div>
+        
+        <ul id="Revenda-de-carros"></ul>
+      </div>
+      <div class="carros">
+        <h2 class="tabela-imagem">concessionária ONLINE</h2>
+
+      </div>
   <script src="script.js"></script>
 </body>
 </html>
